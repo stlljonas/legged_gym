@@ -69,7 +69,8 @@ class AnymalCRoughCfg( LeggedRobotCfg ):
         actuator_net_file = "{LEGGED_GYM_ROOT_DIR}/resources/actuator_nets/anydrive_v3_lstm.pt"
 
     class asset( LeggedRobotCfg.asset ):
-        file = "{LEGGED_GYM_ROOT_DIR}/resources/robots/anymal_c/urdf/anymal_c.urdf"
+        # file = "{LEGGED_GYM_ROOT_DIR}/resources/robots/anymal_c/urdf/anymal_c.urdf"
+        file = "{LEGGED_GYM_ROOT_DIR}/resources/robots/anytwin_c/urdf/anytwin_c.urdf"
         name = "anymal_c"
         foot_name = "FOOT"
         penalize_contacts_on = ["SHANK", "THIGH"]
